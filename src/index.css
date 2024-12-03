@@ -1,0 +1,126 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  color: #213547;
+  background-color: #ffffff;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #747bff;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+p {
+  margin: 0 0 6px;
+}
+
+.button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #8a05ff;
+  color: #fff;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.button:hover {
+  border-color: #8a05ff;
+}
+
+.button:focus,
+.button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.button:disabled {
+  border-color: #bb86eb;
+  background-color: #bb86eb;
+}
+
+.wrap {
+  min-height: 400px;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+}
+
+.table {
+  display: table;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.row {
+  display: table-row;
+}
+
+.cell {
+  display: table-cell;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.table .row:nth-child(odd) {
+  background-color: #ff33cc;
+}
+
+.table .row:nth-child(even) {
+  background-color: #e495e4;
+}
+
+.autoCard {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+form .button {
+  background: #ff33cc;
+}
+
+.formField {
+  display: flex;
+  flex-direction: column;
+}
+
